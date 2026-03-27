@@ -3,7 +3,7 @@ name: Deploy Web Ca Nhan
 on:
   push:
     branches:
-      - main  # Chạy khi bạn push code lên nhánh main
+      - master # Chạy khi bạn push code lên nhánh main
 
 jobs:
   build-and-deploy:
